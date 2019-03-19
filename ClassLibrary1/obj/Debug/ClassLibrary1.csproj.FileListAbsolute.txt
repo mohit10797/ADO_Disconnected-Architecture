@@ -1,0 +1,9 @@
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

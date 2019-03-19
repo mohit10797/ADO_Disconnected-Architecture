@@ -1,0 +1,6 @@
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csprojAssemblyReference.cache
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
