@@ -32,6 +32,8 @@ namespace WebApplication1
             {
                 Response.Write(E.Message.ToString());
             }
+            Response.Redirect("~/WebForm1.aspx");
+
             
         }
 
@@ -79,5 +81,16 @@ namespace WebApplication1
                 Response.Write(E.Message);
             }
             }
+
+        protected void cookie_Click(object sender, EventArgs e)
+        {
+            Response.Cookies["name"].Value = Textname.Text;
+            Response.Cookies["name"].Expires = DateTime.Now.AddDays(1);
+        }
+
+        protected void session_Click(object sender, EventArgs e)
+        {
+            Session["name1"] = Textname.Text;
+        }
     }
 }

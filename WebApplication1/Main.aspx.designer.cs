@@ -76,6 +76,24 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Button delete;
         
         /// <summary>
+        /// state_cookie control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button state_cookie;
+        
+        /// <summary>
+        /// state_session control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button state_session;
+        
+        /// <summary>
         /// update control.
         /// </summary>
         /// <remarks>

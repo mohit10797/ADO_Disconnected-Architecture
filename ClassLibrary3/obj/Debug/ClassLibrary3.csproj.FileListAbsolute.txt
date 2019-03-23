@@ -4,3 +4,9 @@ c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\obj\Debug\ClassLibrary3.csprojAssemblyReference.cache
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary3\obj\Debug\ClassLibrary3.pdb

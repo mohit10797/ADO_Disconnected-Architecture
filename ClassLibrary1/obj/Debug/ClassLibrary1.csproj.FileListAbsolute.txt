@@ -7,3 +7,12 @@ c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 c:\users\mohit\source\repos\ClassLibrary3\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Mohit\Desktop\ADO_Disconnected-Architecture_ntier_architecture\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

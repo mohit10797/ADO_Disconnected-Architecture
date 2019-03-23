@@ -48,6 +48,8 @@
             </td>
                     <td>
             <asp:Button ID="delete" runat="server" Text="Delete" OnClick="delete_Click" />
+            <asp:Button ID="state_cookie" runat="server" Text="CookieState" OnClick="cookie_Click" />
+            <asp:Button ID="state_session" runat="server" Text="SessionState" OnClick="session_Click" />
             </td><td>
                         <asp:Button ID="update" runat="server" Text="Update" OnClick="update_Click" />
             </td><td>
