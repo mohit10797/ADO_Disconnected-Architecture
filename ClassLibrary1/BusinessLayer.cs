@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace ClassLibrary1
     {
         course c = new course();
         DataLayere d = new DataLayere();
+        DataTable dt = new DataTable();
+        
         public void insert_course(course c)
         {
             try
@@ -56,6 +59,11 @@ namespace ClassLibrary1
                 throw (e);
             }
             }
+        public DataSet grid_fill()
+        {
+            return d.grid_fill();
+        }
 
     }
+    
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -23,16 +24,18 @@ namespace WebApplication1
         {
             try
             {
-                c.course_name = Textname.Text;
-                c.credit = Convert.ToInt32(Textcredit.Text);
-                c.semester = Convert.ToInt32(Textsemester.Text);
+                c.address_id = Convert.ToInt16(Textid.Value);
+                c.first_name = Textfname.Text;
+                c.last_name = (Textlname.Text);
+                c.email = Textemail.Text;
+                c.phone = Convert.ToChar(Textphone.Text);
                 d.insert_course(c);
             }
             catch (Exception E)
             {
-                Response.Write(E.Message.ToString());
+                
             }
-            Response.Redirect("~/WebForm1.aspx");
+            
 
             
         }
@@ -42,7 +45,7 @@ namespace WebApplication1
             try
             {
                 //BusinessLayer d = new BusinessLayer();
-                c.id = Convert.ToInt16(Textid.Text);
+                c.address_id = Convert.ToInt16(Textid.Value);
                 d.delete_course(c);
             }
             catch(Exception E)
@@ -55,10 +58,11 @@ namespace WebApplication1
         {
             try {
                 //BusinessLayer d = new BusinessLayer();
-                c.course_name = Textname.Text;
-                c.credit = Convert.ToInt32(Textcredit.Text);
-                c.semester = Convert.ToInt32(Textsemester.Text);
-                c.id = Convert.ToInt16(Textid.Text);
+                c.first_name = Textfname.Text;
+                c.last_name = Textlname.Text;
+                c.email = Textemail.Text;
+                c.phone = Convert.ToChar(Textphone.Text);
+                c.address_id = Convert.ToInt16(Textid.Value);
                 d.update_course(c);
             }catch(Exception E)
 
@@ -71,26 +75,38 @@ namespace WebApplication1
         {
             try {
                 //BusinessLayer d = new BusinessLayer();
-                c.id = Convert.ToInt16(Textid.Text);
+                c.address_id = Convert.ToInt16(Textid.Value);
                 d.search_course(c);
-                Textname.Text = c.course_name;
-                Textcredit.Text = Convert.ToString(c.credit);
-                Textsemester.Text = Convert.ToString(c.semester);
-            }catch(Exception E)
+                c.first_name = Textfname.Text;
+                c.last_name = Textlname.Text;
+                c.email = Textemail.Text;
+                c.address_id = Convert.ToInt16(Textid.Value);
+            }
+            catch(Exception E)
             {
                 Response.Write(E.Message);
             }
             }
 
-        protected void cookie_Click(object sender, EventArgs e)
+        protected void Find_lastname_Click(object sender, EventArgs e)
         {
-            Response.Cookies["name"].Value = Textname.Text;
-            Response.Cookies["name"].Expires = DateTime.Now.AddDays(1);
+            
+        }
+        protected void Browse_all_enteries_Click(object sender, EventArgs e)
+        {
+            DataSet ds = d.grid_fill();
+            GridView1.DataSource = ds;
+            GridView1.DataBind();
+
         }
 
-        protected void session_Click(object sender, EventArgs e)
+        protected void Search_button_Click(object sender, EventArgs e)
         {
-            Session["name1"] = Textname.Text;
+            d.search_course(c);
+            Textfname.Text = c.first_name;
+            Textlname.Text = c.last_name;
+            Textemail.Text = c.email;
+            Textphone.Text = Convert.ToString(c.phone);
         }
     }
 }

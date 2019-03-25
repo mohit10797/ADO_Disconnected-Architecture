@@ -8,10 +8,10 @@ namespace ClassLibrary3
 {
     public class course
     {
-        public string course_name { get; set; }
-        public int credit { get; set; }
-        public int semester { get; set; }
-
-        public int id { get; set; }
+        public string first_name { get; set; }
+        public string last_name { get; set; }
+        public string email { get; set; }
+        public char phone { get; set; }
+        public int address_id { get; set; }
     }
 }
